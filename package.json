@@ -1,0 +1,46 @@
+{
+  "name": "hacker-news-test",
+  "version": "1.0.0",
+  "description": "Hacker News Article Sorting Test Suite",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:all": "npm run test:chromium && npm run test:firefox && npm run test:webkit",
+    "test:ci": "playwright test --reporter=list,html,junit,json",
+    "coverage": "nyc report --reporter=json",
+    "docker:build": "docker build -t hacker-news-test .",
+    "docker:test": "docker-compose run test",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "testing",
+    "playwright",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.42.1",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.7.3",
+    "@types/axe-core": "^2.0.2",
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-playwright": "^1.3.0",
+    "nyc": "^15.1.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

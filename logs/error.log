@@ -1,0 +1,125 @@
+[2025-01-20T18:29:33.728Z] [31merror[39m: Test failed: page.waitForFunction: call to eval() blocked by CSP
+predicate@debugger eval code line 234 > eval:11:37
+next@debugger eval code line 234 > eval:32:31
+FrameRequestCallback*builtinRequestAnimationFrame@debugger eval code:5616:24
+next@debugger eval code line 234 > eval:37:57
+@debugger eval code line 234 > eval:42:11
+evaluate@debugger eval code:236:17
+@debugger eval code:1:44
+
+[2025-01-20T18:29:36.912Z] [31merror[39m: Test failed: page.waitForFunction: call to eval() blocked by CSP
+predicate@debugger eval code line 234 > eval:11:37
+next@debugger eval code line 234 > eval:32:31
+FrameRequestCallback*builtinRequestAnimationFrame@debugger eval code:5616:24
+next@debugger eval code line 234 > eval:37:57
+@debugger eval code line 234 > eval:42:11
+evaluate@debugger eval code:236:17
+@debugger eval code:1:44
+
+[2025-01-20T18:29:46.701Z] [31merror[39m: Test failed: page.waitForFunction: Timeout 15000ms exceeded.
+[2025-01-20T18:30:03.247Z] [31merror[39m: Test failed: page.waitForFunction: Timeout 15000ms exceeded.
+[2025-01-20T18:30:03.719Z] [31merror[39m: Test failed: page.waitForFunction: Test ended.
+[2025-01-20T18:34:55.084Z] [31merror[39m: Test failed: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('tr.athing').first() to be visible[22m
+
+[2025-01-20T18:34:57.290Z] [31merror[39m: Test failed: Expected at least 100 articles, but found only 30
+[2025-01-20T18:35:28.337Z] [31merror[39m: Test failed: Expected at least 100 articles, but found only 30
+[2025-01-20T18:35:33.541Z] [31merror[39m: Test failed: Expected at least 100 articles, but found only 30
+[2025-01-20T18:36:08.716Z] [31merror[39m: Test failed: Expected at least 100 articles, but found only 30
+[2025-01-20T18:36:30.813Z] [31merror[39m: Test failed: page.waitForTimeout: Test ended.
+[2025-01-20T18:42:12.289Z] [31merror[39m: Test failed: Expected at least 100 articles after 4 pages, but found only 30
+[2025-01-20T18:42:14.856Z] [31merror[39m: Test failed: Expected at least 100 articles after 4 pages, but found only 30
+[2025-01-20T18:42:26.832Z] [31merror[39m: Test failed: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('tr.athing').first() to be visible[22m
+
+[2025-01-20T18:42:29.457Z] [31merror[39m: Test failed: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('tr.athing').first() to be visible[22m
+
+[2025-01-20T18:42:32.726Z] [31merror[39m: Test failed: Expected at least 100 articles after 4 pages, but found only 30
+[2025-01-20T18:42:34.213Z] [31merror[39m: Test failed: Expected at least 100 articles after 4 pages, but found only 30
+[2025-01-20T18:44:56.245Z] [31merror[39m: Test failed: Expected at least 100 articles after 4 pages, but found only 30
+[2025-01-20T18:45:09.074Z] [31merror[39m: Test failed: Expected at least 100 articles after 4 pages, but found only 30
+[2025-01-20T18:45:17.338Z] [31merror[39m: Test failed: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('tr.athing').first() to be visible[22m
+
+[2025-01-20T18:45:22.184Z] [31merror[39m: Test failed: Expected at least 100 articles after 4 pages, but found only 30
+[2025-01-20T18:45:28.655Z] [31merror[39m: Test failed: Expected at least 100 articles after 4 pages, but found only 30
+[2025-01-20T18:45:33.873Z] [31merror[39m: Test failed: Expected at least 100 articles after 4 pages, but found only 30
+[2025-01-20T18:47:33.302Z] [31merror[39m: Test failed: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**/?p=2" until "load"
+============================================================
+[2025-01-20T18:47:34.768Z] [31merror[39m: Test failed: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**/?p=2" until "load"
+============================================================
+[2025-01-20T18:47:52.849Z] [31merror[39m: Test failed: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**/?p=2" until "load"
+============================================================
+[2025-01-20T18:47:56.271Z] [31merror[39m: Test failed: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**/?p=2" until "load"
+============================================================
+[2025-01-20T18:48:17.287Z] [31merror[39m: Test failed: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**/?p=2" until "load"
+============================================================
+[2025-01-20T18:48:36.863Z] [31merror[39m: Test failed: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**/?p=2" until "load"
+============================================================
+[2025-01-20T18:52:16.005Z] [31merror[39m: Test failed: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('tr.athing').first() to be visible[22m
+
+[2025-01-20T18:53:00.478Z] [31merror[39m: Test failed: page.waitForTimeout: Test ended.
+[2025-01-20T18:53:01.998Z] [31merror[39m: Test failed: page.waitForTimeout: Test ended.
+[2025-01-20T19:02:19.704Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:03:48.154Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:04:42.106Z] [31merror[39m: Test failed: page.waitForLoadState: Test timeout of 120000ms exceeded.
+[2025-01-20T19:05:59.626Z] [31merror[39m: Test failed: page.waitForTimeout: Target page, context or browser has been closed
+[2025-01-20T19:06:44.139Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:08:53.344Z] [31merror[39m: Test failed: page.waitForTimeout: Test timeout of 120000ms exceeded.
+[2025-01-20T19:12:01.339Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:12:02.766Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:12:24.663Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:12:28.052Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:12:54.713Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:13:18.920Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:15:30.415Z] [31merror[39m: Test failed: page.waitForSelector: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('tr.athing') to be visible[22m
+
+[2025-01-20T19:15:30.426Z] [31merror[39m: Test failed: page.waitForTimeout: Target page, context or browser has been closed
+[2025-01-20T19:18:24.937Z] [31merror[39m: Test failed: page.waitForTimeout: Test timeout of 120000ms exceeded.
+[2025-01-20T19:18:28.571Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:20:26.672Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:20:27.518Z] [31merror[39m: Test failed: page.waitForTimeout: Test timeout of 120000ms exceeded.
+[2025-01-20T19:20:34.595Z] [31merror[39m: Test failed: page.waitForTimeout: Test timeout of 120000ms exceeded.
+[2025-01-20T19:22:29.431Z] [31merror[39m: Test failed: page.waitForTimeout: Test timeout of 120000ms exceeded.
+[2025-01-20T19:29:50.695Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:29:52.404Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:29:56.462Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:30:00.357Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:30:07.766Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:30:14.144Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:31:26.291Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:31:36.095Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:31:47.456Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:31:50.421Z] [31merror[39m: Test failed: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('tr.athing') to be visible[22m
+
+[2025-01-20T19:31:56.653Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:32:00.943Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:51:48.732Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:51:50.481Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:51:54.445Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:52:00.763Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:52:08.959Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.
+[2025-01-20T19:52:16.557Z] [31merror[39m: Test failed: Cannot load article at index 99. No more pages available.

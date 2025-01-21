@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  test:
+    build: .
+    volumes:
+      - ./test-results:/app/test-results
+      - ./playwright-report:/app/playwright-report
+      - ./coverage:/app/coverage
+    environment:
+      - CI=true
+      - NODE_ENV=test
+    command: npm run test:all 

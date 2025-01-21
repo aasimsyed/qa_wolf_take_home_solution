@@ -1,0 +1,116 @@
+<testsuites id="" name="" tests="36" failures="0" skipped="0" errors="0" time="95.15583600000001">
+<testsuite name="accessibility.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="chromium" tests="4" failures="0" skipped="0" time="6.629" errors="0">
+<testcase name="Hacker News Accessibility Tests › should document accessibility status" classname="accessibility.spec.ts" time="2.543">
+<system-out>
+<![CDATA[Known accessibility issues:
+- Insufficient color contrast in UI elements (color-contrast)
+- Images missing alternative text (image-alt)
+- Form elements missing labels (label)
+- Links without discernible text (link-name)
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have proper heading structure" classname="accessibility.spec.ts" time="1.279">
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have sufficient color contrast" classname="accessibility.spec.ts" time="1.375">
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have proper ARIA attributes" classname="accessibility.spec.ts" time="1.432">
+</testcase>
+</testsuite>
+<testsuite name="hackernews.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="chromium" tests="3" failures="0" skipped="0" time="10.142" errors="0">
+<testcase name="Hacker News Article Sorting Tests › first page articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="1.264">
+</testcase>
+<testcase name="Hacker News Article Sorting Tests › first 100 articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="3.235">
+</testcase>
+<testcase name="Hacker News Article Sorting Tests › should handle page refresh and maintain order" classname="hackernews.spec.ts" time="5.643">
+</testcase>
+</testsuite>
+<testsuite name="performance.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="chromium" tests="5" failures="0" skipped="0" time="11.741" errors="0">
+<testcase name="Performance Tests › should load first page within performance budget" classname="performance.spec.ts" time="1.241">
+</testcase>
+<testcase name="Performance Tests › should maintain performance during pagination" classname="performance.spec.ts" time="3.077">
+</testcase>
+<testcase name="Performance Tests › should maintain stable memory usage during pagination" classname="performance.spec.ts" time="1.813">
+</testcase>
+<testcase name="Performance Tests › should handle rate limiting gracefully" classname="performance.spec.ts" time="4.349">
+</testcase>
+<testcase name="Performance Tests › should optimize DOM operations" classname="performance.spec.ts" time="1.261">
+</testcase>
+</testsuite>
+<testsuite name="accessibility.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="firefox" tests="4" failures="0" skipped="0" time="8.277" errors="0">
+<testcase name="Hacker News Accessibility Tests › should document accessibility status" classname="accessibility.spec.ts" time="3.409">
+<system-out>
+<![CDATA[Known accessibility issues:
+- Insufficient color contrast in UI elements (color-contrast)
+- Images missing alternative text (image-alt)
+- Form elements missing labels (label)
+- Links without discernible text (link-name)
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have proper heading structure" classname="accessibility.spec.ts" time="1.452">
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have sufficient color contrast" classname="accessibility.spec.ts" time="1.605">
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have proper ARIA attributes" classname="accessibility.spec.ts" time="1.811">
+</testcase>
+</testsuite>
+<testsuite name="hackernews.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="firefox" tests="3" failures="0" skipped="0" time="11.608" errors="0">
+<testcase name="Hacker News Article Sorting Tests › first page articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="1.499">
+</testcase>
+<testcase name="Hacker News Article Sorting Tests › first 100 articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="3.428">
+</testcase>
+<testcase name="Hacker News Article Sorting Tests › should handle page refresh and maintain order" classname="hackernews.spec.ts" time="6.681">
+</testcase>
+</testsuite>
+<testsuite name="performance.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="firefox" tests="5" failures="0" skipped="0" time="12.66" errors="0">
+<testcase name="Performance Tests › should load first page within performance budget" classname="performance.spec.ts" time="1.306">
+</testcase>
+<testcase name="Performance Tests › should maintain performance during pagination" classname="performance.spec.ts" time="3.35">
+</testcase>
+<testcase name="Performance Tests › should maintain stable memory usage during pagination" classname="performance.spec.ts" time="1.994">
+</testcase>
+<testcase name="Performance Tests › should handle rate limiting gracefully" classname="performance.spec.ts" time="4.703">
+</testcase>
+<testcase name="Performance Tests › should optimize DOM operations" classname="performance.spec.ts" time="1.307">
+</testcase>
+</testsuite>
+<testsuite name="accessibility.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="webkit" tests="4" failures="0" skipped="0" time="6.945" errors="0">
+<testcase name="Hacker News Accessibility Tests › should document accessibility status" classname="accessibility.spec.ts" time="3.005">
+<system-out>
+<![CDATA[Known accessibility issues:
+- Insufficient color contrast in UI elements (color-contrast)
+- Images missing alternative text (image-alt)
+- Form elements missing labels (label)
+- Links without discernible text (link-name)
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have proper heading structure" classname="accessibility.spec.ts" time="1.187">
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have sufficient color contrast" classname="accessibility.spec.ts" time="1.399">
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have proper ARIA attributes" classname="accessibility.spec.ts" time="1.354">
+</testcase>
+</testsuite>
+<testsuite name="hackernews.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="webkit" tests="3" failures="0" skipped="0" time="9.785" errors="0">
+<testcase name="Hacker News Article Sorting Tests › first page articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="1.155">
+</testcase>
+<testcase name="Hacker News Article Sorting Tests › first 100 articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="3.065">
+</testcase>
+<testcase name="Hacker News Article Sorting Tests › should handle page refresh and maintain order" classname="hackernews.spec.ts" time="5.565">
+</testcase>
+</testsuite>
+<testsuite name="performance.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="webkit" tests="5" failures="0" skipped="0" time="11.661" errors="0">
+<testcase name="Performance Tests › should load first page within performance budget" classname="performance.spec.ts" time="1.311">
+</testcase>
+<testcase name="Performance Tests › should maintain performance during pagination" classname="performance.spec.ts" time="3.017">
+</testcase>
+<testcase name="Performance Tests › should maintain stable memory usage during pagination" classname="performance.spec.ts" time="1.85">
+</testcase>
+<testcase name="Performance Tests › should handle rate limiting gracefully" classname="performance.spec.ts" time="4.319">
+</testcase>
+<testcase name="Performance Tests › should optimize DOM operations" classname="performance.spec.ts" time="1.164">
+</testcase>
+</testsuite>
+</testsuites>
