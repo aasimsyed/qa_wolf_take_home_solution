@@ -11,6 +11,7 @@
     "test:webkit": "playwright test --project=webkit",
     "test:all": "npm run test:chromium && npm run test:firefox && npm run test:webkit",
     "test:ci": "playwright test --reporter=list,html,junit,json",
+    "test:coverage": "nyc npm run test",
     "coverage": "nyc report --reporter=json",
     "docker:build": "docker build -t hacker-news-test .",
     "docker:test": "docker-compose run test",
