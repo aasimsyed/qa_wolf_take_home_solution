@@ -1,116 +1,419 @@
-<testsuites id="" name="" tests="36" failures="0" skipped="0" errors="0" time="95.15583600000001">
-<testsuite name="accessibility.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="chromium" tests="4" failures="0" skipped="0" time="6.629" errors="0">
-<testcase name="Hacker News Accessibility Tests › should document accessibility status" classname="accessibility.spec.ts" time="2.543">
+<testsuites id="" name="" tests="36" failures="0" skipped="0" errors="0" time="99.460463">
+<testsuite name="accessibility.spec.ts" timestamp="2025-01-22T19:35:38.759Z" hostname="chromium" tests="4" failures="0" skipped="0" time="7.185" errors="0">
+<testcase name="Hacker News Accessibility Tests › should document accessibility status" classname="accessibility.spec.ts" time="3.084">
 <system-out>
-<![CDATA[Known accessibility issues:
-- Insufficient color contrast in UI elements (color-contrast)
-- Images missing alternative text (image-alt)
-- Form elements missing labels (label)
-- Links without discernible text (link-name)
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:35:42.484Z"}
+[32minfo[39m: Performance - Page Navigation: 1031ms {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:35:42.502Z"}
+[32minfo[39m: Starting accessibility scan... {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:35:42.503Z"}
+[32minfo[39m: Accessibility scan completed in 918ms {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:35:43.421Z"}
+[32minfo[39m: Known accessibility issues: {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:35:43.422Z"}
+[33mwarn[39m: Accessibility violation - color-contrast: Elements must meet minimum color contrast ratio thresholds (270 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:35:43.422Z"}
+[33mwarn[39m: Accessibility violation - image-alt: Images must have alternative text (2 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:35:43.422Z"}
+[33mwarn[39m: Accessibility violation - label: Form elements must have labels (1 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:35:43.422Z"}
+[33mwarn[39m: Accessibility violation - link-name: Links must have discernible text (1 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:35:43.422Z"}
+[32minfo[39m: Found 0 accessibility violations {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:35:43.423Z"}
 ]]>
 </system-out>
 </testcase>
-<testcase name="Hacker News Accessibility Tests › should have proper heading structure" classname="accessibility.spec.ts" time="1.279">
+<testcase name="Hacker News Accessibility Tests › should have proper heading structure" classname="accessibility.spec.ts" time="1.239">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper heading structure","timestamp":"2025-01-22T19:35:44.638Z"}
+[32minfo[39m: Performance - Page Navigation: 884ms {"file":"accessibility.spec.ts","test":"should have proper heading structure","timestamp":"2025-01-22T19:35:44.640Z"}
+]]>
+</system-out>
 </testcase>
-<testcase name="Hacker News Accessibility Tests › should have sufficient color contrast" classname="accessibility.spec.ts" time="1.375">
+<testcase name="Hacker News Accessibility Tests › should have sufficient color contrast" classname="accessibility.spec.ts" time="1.446">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have sufficient color contrast","timestamp":"2025-01-22T19:35:45.913Z"}
+[32minfo[39m: Performance - Page Navigation: 956ms {"file":"accessibility.spec.ts","test":"should have sufficient color contrast","timestamp":"2025-01-22T19:35:45.913Z"}
+]]>
+</system-out>
 </testcase>
-<testcase name="Hacker News Accessibility Tests › should have proper ARIA attributes" classname="accessibility.spec.ts" time="1.432">
+<testcase name="Hacker News Accessibility Tests › should have proper ARIA attributes" classname="accessibility.spec.ts" time="1.416">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:47.317Z"}
+[32minfo[39m: Performance - Page Navigation: 908ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:47.318Z"}
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="hackernews.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="chromium" tests="3" failures="0" skipped="0" time="10.142" errors="0">
-<testcase name="Hacker News Article Sorting Tests › first page articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="1.264">
+<testsuite name="hackernews.spec.ts" timestamp="2025-01-22T19:35:38.759Z" hostname="chromium" tests="3" failures="0" skipped="0" time="10.395" errors="0">
+<testcase name="Hacker News Article Sorting Tests › first page articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="1.261">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:47.828Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:48.728Z"}
+[32minfo[39m: Performance - Page Navigation: 901ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:48.728Z"}
+[32minfo[39m: Performance - Timestamp Collection: 18ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:48.747Z"}
+]]>
+</system-out>
 </testcase>
-<testcase name="Hacker News Article Sorting Tests › first 100 articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="3.235">
+<testcase name="Hacker News Article Sorting Tests › first 100 articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="3.459">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:49.095Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:49.996Z"}
+[32minfo[39m: Performance - Page Navigation: 901ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:49.997Z"}
+[32minfo[39m: Performance - Timestamp Collection: 18ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:50.016Z"}
+[32minfo[39m: Performance - Next Page Load: 691ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:50.707Z"}
+[32minfo[39m: Performance - Timestamp Collection: 190ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:50.899Z"}
+[32minfo[39m: Performance - Next Page Load: 678ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:51.577Z"}
+[32minfo[39m: Performance - Timestamp Collection: 9ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:51.586Z"}
+[32minfo[39m: Performance - Next Page Load: 632ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:52.218Z"}
+[32minfo[39m: Performance - Timestamp Collection: 10ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:52.229Z"}
+]]>
+</system-out>
 </testcase>
-<testcase name="Hacker News Article Sorting Tests › should handle page refresh and maintain order" classname="hackernews.spec.ts" time="5.643">
+<testcase name="Hacker News Article Sorting Tests › should handle page refresh and maintain order" classname="hackernews.spec.ts" time="5.675">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:52.597Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:53.507Z"}
+[32minfo[39m: Performance - Page Navigation: 909ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:53.508Z"}
+[32minfo[39m: Performance - Timestamp Collection: 27ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:53.536Z"}
+[32minfo[39m: Performance - Next Page Load: 630ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:54.166Z"}
+[32minfo[39m: Performance - Timestamp Collection: 8ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:54.174Z"}
+[32minfo[39m: Performance - Next Page Load: 633ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:54.807Z"}
+[32minfo[39m: Performance - Timestamp Collection: 10ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:54.817Z"}
+[32minfo[39m: Performance - Next Page Load: 613ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:55.431Z"}
+[32minfo[39m: Performance - Timestamp Collection: 13ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:55.444Z"}
+[32minfo[39m: Performance - Articles Load: 15ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:56.049Z"}
+[32minfo[39m: Performance - Timestamp Collection: 12ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:56.061Z"}
+[32minfo[39m: Performance - Next Page Load: 621ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:56.682Z"}
+[32minfo[39m: Performance - Timestamp Collection: 17ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:56.699Z"}
+[32minfo[39m: Performance - Next Page Load: 622ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:57.321Z"}
+[32minfo[39m: Performance - Timestamp Collection: 11ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:57.332Z"}
+[32minfo[39m: Performance - Next Page Load: 620ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:57.952Z"}
+[32minfo[39m: Performance - Timestamp Collection: 12ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:57.964Z"}
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="performance.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="chromium" tests="5" failures="0" skipped="0" time="11.741" errors="0">
-<testcase name="Performance Tests › should load first page within performance budget" classname="performance.spec.ts" time="1.241">
+<testsuite name="performance.spec.ts" timestamp="2025-01-22T19:35:38.759Z" hostname="chromium" tests="5" failures="0" skipped="0" time="11.778" errors="0">
+<testcase name="Performance Tests › should load first page within performance budget" classname="performance.spec.ts" time="1.2">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:58.234Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:59.150Z"}
+[32minfo[39m: Performance - Page Navigation: 914ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:59.152Z"}
+]]>
+</system-out>
 </testcase>
-<testcase name="Performance Tests › should maintain performance during pagination" classname="performance.spec.ts" time="3.077">
+<testcase name="Performance Tests › should maintain performance during pagination" classname="performance.spec.ts" time="3.061">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:35:59.436Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:00.337Z"}
+[32minfo[39m: Performance - Page Navigation: 901ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:00.338Z"}
+[32minfo[39m: Performance - Next Page Load: 623ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:00.961Z"}
+[32minfo[39m: Performance - Next Page Load: 636ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:01.599Z"}
+[32minfo[39m: Performance - Next Page Load: 635ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:02.237Z"}
+]]>
+</system-out>
 </testcase>
-<testcase name="Performance Tests › should maintain stable memory usage during pagination" classname="performance.spec.ts" time="1.813">
+<testcase name="Performance Tests › should maintain stable memory usage during pagination" classname="performance.spec.ts" time="1.852">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:02.505Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:03.417Z"}
+[32minfo[39m: Performance - Page Navigation: 912ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:03.417Z"}
+[32minfo[39m: Performance - Next Page Load: 642ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:04.066Z"}
+]]>
+</system-out>
 </testcase>
-<testcase name="Performance Tests › should handle rate limiting gracefully" classname="performance.spec.ts" time="4.349">
+<testcase name="Performance Tests › should handle rate limiting gracefully" classname="performance.spec.ts" time="4.484">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:04.410Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:05.339Z"}
+[32minfo[39m: Performance - Page Navigation: 929ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:05.339Z"}
+[32minfo[39m: Performance - Next Page Load: 645ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:05.985Z"}
+[32minfo[39m: Performance - Next Page Load: 680ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:06.666Z"}
+[32minfo[39m: Performance - Next Page Load: 643ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:07.310Z"}
+[32minfo[39m: Performance - Next Page Load: 631ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:07.941Z"}
+[32minfo[39m: Performance - Next Page Load: 632ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:08.573Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Performance Tests › should optimize DOM operations" classname="performance.spec.ts" time="1.181">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:08.843Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:09.739Z"}
+[32minfo[39m: Performance - Page Navigation: 896ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:09.740Z"}
+[32minfo[39m: Performance - Timestamp Collection: 15ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:09.755Z"}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="accessibility.spec.ts" timestamp="2025-01-22T19:35:38.759Z" hostname="firefox" tests="4" failures="0" skipped="0" time="8.054" errors="0">
+<testcase name="Hacker News Accessibility Tests › should document accessibility status" classname="accessibility.spec.ts" time="3.555">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:14.678Z"}
+[32minfo[39m: Performance - Page Navigation: 1174ms {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:14.687Z"}
+[32minfo[39m: Starting accessibility scan... {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:14.687Z"}
+[32minfo[39m: Accessibility scan completed in 1069ms {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:15.756Z"}
+[32minfo[39m: Known accessibility issues: {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:15.756Z"}
+[33mwarn[39m: Accessibility violation - color-contrast: Elements must meet minimum color contrast ratio thresholds (270 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:15.757Z"}
+[33mwarn[39m: Accessibility violation - image-alt: Images must have alternative text (2 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:15.757Z"}
+[33mwarn[39m: Accessibility violation - label: Form elements must have labels (1 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:15.757Z"}
+[33mwarn[39m: Accessibility violation - link-name: Links must have discernible text (1 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:15.757Z"}
+[32minfo[39m: Found 0 accessibility violations {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:15.758Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have proper heading structure" classname="accessibility.spec.ts" time="1.174">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper heading structure","timestamp":"2025-01-22T19:36:16.967Z"}
+[32minfo[39m: Performance - Page Navigation: 961ms {"file":"accessibility.spec.ts","test":"should have proper heading structure","timestamp":"2025-01-22T19:36:16.967Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have sufficient color contrast" classname="accessibility.spec.ts" time="1.675">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have sufficient color contrast","timestamp":"2025-01-22T19:36:18.135Z"}
+[32minfo[39m: Performance - Page Navigation: 951ms {"file":"accessibility.spec.ts","test":"should have sufficient color contrast","timestamp":"2025-01-22T19:36:18.136Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have proper ARIA attributes" classname="accessibility.spec.ts" time="1.65">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:19.888Z"}
+[32minfo[39m: Performance - Page Navigation: 940ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:19.890Z"}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="hackernews.spec.ts" timestamp="2025-01-22T19:35:38.759Z" hostname="firefox" tests="3" failures="0" skipped="0" time="11.956" errors="0">
+<testcase name="Hacker News Article Sorting Tests › first page articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="2.087">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:21.031Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:22.286Z"}
+[32minfo[39m: Performance - Page Navigation: 1254ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:22.286Z"}
+[32minfo[39m: Performance - Timestamp Collection: 23ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:22.309Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Article Sorting Tests › first 100 articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="3.476">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:22.778Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:23.734Z"}
+[32minfo[39m: Performance - Page Navigation: 956ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:23.735Z"}
+[32minfo[39m: Performance - Timestamp Collection: 19ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:23.755Z"}
+[32minfo[39m: Performance - Next Page Load: 693ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:24.449Z"}
+[32minfo[39m: Performance - Timestamp Collection: 18ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:24.467Z"}
+[32minfo[39m: Performance - Next Page Load: 672ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:25.139Z"}
+[32minfo[39m: Performance - Timestamp Collection: 27ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:25.166Z"}
+[32minfo[39m: Performance - Next Page Load: 660ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:25.826Z"}
+[32minfo[39m: Performance - Timestamp Collection: 16ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:25.842Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Article Sorting Tests › should handle page refresh and maintain order" classname="hackernews.spec.ts" time="6.393">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:26.196Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:27.161Z"}
+[32minfo[39m: Performance - Page Navigation: 965ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:27.161Z"}
+[32minfo[39m: Performance - Timestamp Collection: 64ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:27.225Z"}
+[32minfo[39m: Performance - Next Page Load: 691ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:27.916Z"}
+[32minfo[39m: Performance - Timestamp Collection: 24ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:27.940Z"}
+[32minfo[39m: Performance - Next Page Load: 697ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:28.638Z"}
+[32minfo[39m: Performance - Timestamp Collection: 20ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:28.658Z"}
+[32minfo[39m: Performance - Next Page Load: 674ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:29.332Z"}
+[32minfo[39m: Performance - Timestamp Collection: 20ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:29.352Z"}
+[32minfo[39m: Performance - Articles Load: 31ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:30.194Z"}
+[32minfo[39m: Performance - Timestamp Collection: 19ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:30.213Z"}
+[32minfo[39m: Performance - Next Page Load: 683ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:30.896Z"}
+[32minfo[39m: Performance - Timestamp Collection: 23ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:30.919Z"}
+[32minfo[39m: Performance - Next Page Load: 662ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:31.581Z"}
+[32minfo[39m: Performance - Timestamp Collection: 15ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:31.596Z"}
+[32minfo[39m: Performance - Next Page Load: 647ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:32.243Z"}
+[32minfo[39m: Performance - Timestamp Collection: 13ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:32.256Z"}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="performance.spec.ts" timestamp="2025-01-22T19:35:38.759Z" hostname="firefox" tests="5" failures="0" skipped="0" time="12.986" errors="0">
+<testcase name="Performance Tests › should load first page within performance budget" classname="performance.spec.ts" time="1.313">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:32.583Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:33.557Z"}
+[32minfo[39m: Performance - Page Navigation: 974ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:33.557Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Performance Tests › should maintain performance during pagination" classname="performance.spec.ts" time="3.732">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:33.875Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:34.873Z"}
+[32minfo[39m: Performance - Page Navigation: 998ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:34.873Z"}
+[32minfo[39m: Performance - Next Page Load: 691ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:35.565Z"}
+[32minfo[39m: Performance - Next Page Load: 990ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:36.558Z"}
+[32minfo[39m: Performance - Next Page Load: 766ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:37.330Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Performance Tests › should maintain stable memory usage during pagination" classname="performance.spec.ts" time="2.074">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:37.764Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:38.744Z"}
+[32minfo[39m: Performance - Page Navigation: 980ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:38.745Z"}
+[32minfo[39m: Performance - Next Page Load: 683ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:39.434Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Performance Tests › should handle rate limiting gracefully" classname="performance.spec.ts" time="4.6">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:39.684Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:40.646Z"}
+[32minfo[39m: Performance - Page Navigation: 962ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:40.647Z"}
+[32minfo[39m: Performance - Next Page Load: 673ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:41.320Z"}
+[32minfo[39m: Performance - Next Page Load: 655ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:41.975Z"}
+[32minfo[39m: Performance - Next Page Load: 669ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:42.644Z"}
+[32minfo[39m: Performance - Next Page Load: 671ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:43.315Z"}
+[32minfo[39m: Performance - Next Page Load: 714ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:44.029Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Performance Tests › should optimize DOM operations" classname="performance.spec.ts" time="1.267">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:44.314Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:45.276Z"}
+[32minfo[39m: Performance - Page Navigation: 962ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:45.276Z"}
+[32minfo[39m: Performance - Timestamp Collection: 27ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:45.304Z"}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="accessibility.spec.ts" timestamp="2025-01-22T19:35:38.759Z" hostname="webkit" tests="4" failures="0" skipped="0" time="7.975" errors="0">
+<testcase name="Hacker News Accessibility Tests › should document accessibility status" classname="accessibility.spec.ts" time="3.513">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:49.623Z"}
+[32minfo[39m: Performance - Page Navigation: 1047ms {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:49.635Z"}
+[32minfo[39m: Starting accessibility scan... {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:49.636Z"}
+[32minfo[39m: Accessibility scan completed in 1126ms {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:50.762Z"}
+[32minfo[39m: Known accessibility issues: {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:50.762Z"}
+[33mwarn[39m: Accessibility violation - color-contrast: Elements must meet minimum color contrast ratio thresholds (270 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:50.763Z"}
+[33mwarn[39m: Accessibility violation - image-alt: Images must have alternative text (2 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:50.763Z"}
+[33mwarn[39m: Accessibility violation - label: Form elements must have labels (1 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:50.763Z"}
+[33mwarn[39m: Accessibility violation - link-name: Links must have discernible text (1 occurrences) {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:50.763Z"}
+[32minfo[39m: Found 0 accessibility violations {"file":"accessibility.spec.ts","test":"should document accessibility status","timestamp":"2025-01-22T19:36:50.763Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have proper heading structure" classname="accessibility.spec.ts" time="1.294">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper heading structure","timestamp":"2025-01-22T19:36:52.298Z"}
+[32minfo[39m: Performance - Page Navigation: 980ms {"file":"accessibility.spec.ts","test":"should have proper heading structure","timestamp":"2025-01-22T19:36:52.298Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have sufficient color contrast" classname="accessibility.spec.ts" time="1.662">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have sufficient color contrast","timestamp":"2025-01-22T19:36:53.574Z"}
+[32minfo[39m: Performance - Page Navigation: 958ms {"file":"accessibility.spec.ts","test":"should have sufficient color contrast","timestamp":"2025-01-22T19:36:53.575Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Accessibility Tests › should have proper ARIA attributes" classname="accessibility.spec.ts" time="1.506">
+<system-out>
+<![CDATA[[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:55.119Z"}
+[32minfo[39m: Performance - Page Navigation: 947ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:55.119Z"}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="hackernews.spec.ts" timestamp="2025-01-22T19:35:38.759Z" hostname="webkit" tests="3" failures="0" skipped="0" time="10.357" errors="0">
+<testcase name="Hacker News Article Sorting Tests › first page articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="1.179">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:55.673Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:56.628Z"}
+[32minfo[39m: Performance - Page Navigation: 955ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:56.628Z"}
+[32minfo[39m: Performance - Timestamp Collection: 14ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:56.642Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Article Sorting Tests › first 100 articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="3.141">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:56.879Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:57.823Z"}
+[32minfo[39m: Performance - Page Navigation: 943ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:57.824Z"}
+[32minfo[39m: Performance - Timestamp Collection: 16ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:57.841Z"}
+[32minfo[39m: Performance - Next Page Load: 648ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:58.489Z"}
+[32minfo[39m: Performance - Timestamp Collection: 14ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:58.505Z"}
+[32minfo[39m: Performance - Next Page Load: 612ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:59.117Z"}
+[32minfo[39m: Performance - Timestamp Collection: 9ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:59.126Z"}
+[32minfo[39m: Performance - Next Page Load: 614ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:59.740Z"}
+[32minfo[39m: Performance - Timestamp Collection: 7ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:36:59.747Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Hacker News Article Sorting Tests › should handle page refresh and maintain order" classname="hackernews.spec.ts" time="6.037">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:00.186Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:01.181Z"}
+[32minfo[39m: Performance - Page Navigation: 994ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:01.181Z"}
+[32minfo[39m: Performance - Timestamp Collection: 19ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:01.200Z"}
+[32minfo[39m: Performance - Next Page Load: 622ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:01.822Z"}
+[32minfo[39m: Performance - Timestamp Collection: 9ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:01.831Z"}
+[32minfo[39m: Performance - Next Page Load: 617ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:02.449Z"}
+[32minfo[39m: Performance - Timestamp Collection: 7ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:02.456Z"}
+[32minfo[39m: Performance - Next Page Load: 631ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:03.088Z"}
+[32minfo[39m: Performance - Timestamp Collection: 10ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:03.098Z"}
+[32minfo[39m: Performance - Articles Load: 14ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:03.698Z"}
+[32minfo[39m: Performance - Timestamp Collection: 10ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:03.708Z"}
+[32minfo[39m: Performance - Next Page Load: 625ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:04.334Z"}
+[32minfo[39m: Performance - Timestamp Collection: 8ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:04.343Z"}
+[32minfo[39m: Performance - Next Page Load: 629ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:04.973Z"}
+[32minfo[39m: Performance - Timestamp Collection: 9ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:04.982Z"}
+[32minfo[39m: Performance - Next Page Load: 623ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:05.605Z"}
+[32minfo[39m: Performance - Timestamp Collection: 11ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:05.616Z"}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="performance.spec.ts" timestamp="2025-01-22T19:35:38.759Z" hostname="webkit" tests="5" failures="0" skipped="0" time="12.038" errors="0">
+<testcase name="Performance Tests › should load first page within performance budget" classname="performance.spec.ts" time="1.301">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:06.200Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:07.162Z"}
+[32minfo[39m: Performance - Page Navigation: 962ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:07.162Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Performance Tests › should maintain performance during pagination" classname="performance.spec.ts" time="3.108">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:07.411Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:08.367Z"}
+[32minfo[39m: Performance - Page Navigation: 956ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:08.368Z"}
+[32minfo[39m: Performance - Next Page Load: 641ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:09.010Z"}
+[32minfo[39m: Performance - Next Page Load: 623ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:09.635Z"}
+[32minfo[39m: Performance - Next Page Load: 639ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:10.276Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Performance Tests › should maintain stable memory usage during pagination" classname="performance.spec.ts" time="1.941">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:10.554Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:11.604Z"}
+[32minfo[39m: Performance - Page Navigation: 1050ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:11.604Z"}
+[32minfo[39m: Performance - Next Page Load: 630ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:12.243Z"}
+]]>
+</system-out>
+</testcase>
+<testcase name="Performance Tests › should handle rate limiting gracefully" classname="performance.spec.ts" time="4.427">
+<system-out>
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:12.527Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:13.481Z"}
+[32minfo[39m: Performance - Page Navigation: 954ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:13.481Z"}
+[32minfo[39m: Performance - Next Page Load: 647ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:14.128Z"}
+[32minfo[39m: Performance - Next Page Load: 636ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:14.764Z"}
+[32minfo[39m: Performance - Next Page Load: 630ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:15.394Z"}
+[32minfo[39m: Performance - Next Page Load: 633ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:16.027Z"}
+[32minfo[39m: Performance - Next Page Load: 636ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:16.663Z"}
+]]>
+</system-out>
 </testcase>
 <testcase name="Performance Tests › should optimize DOM operations" classname="performance.spec.ts" time="1.261">
-</testcase>
-</testsuite>
-<testsuite name="accessibility.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="firefox" tests="4" failures="0" skipped="0" time="8.277" errors="0">
-<testcase name="Hacker News Accessibility Tests › should document accessibility status" classname="accessibility.spec.ts" time="3.409">
 <system-out>
-<![CDATA[Known accessibility issues:
-- Insufficient color contrast in UI elements (color-contrast)
-- Images missing alternative text (image-alt)
-- Form elements missing labels (label)
-- Links without discernible text (link-name)
+<![CDATA[[33mwarn[39m: Rate Limit - Navigation, waiting 2000ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:16.887Z"}
+[32minfo[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:17.903Z"}
+[32minfo[39m: Performance - Page Navigation: 1016ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:17.912Z"}
+[32minfo[39m: Performance - Timestamp Collection: 23ms {"file":"accessibility.spec.ts","test":"should have proper ARIA attributes","timestamp":"2025-01-22T19:37:17.938Z"}
 ]]>
 </system-out>
-</testcase>
-<testcase name="Hacker News Accessibility Tests › should have proper heading structure" classname="accessibility.spec.ts" time="1.452">
-</testcase>
-<testcase name="Hacker News Accessibility Tests › should have sufficient color contrast" classname="accessibility.spec.ts" time="1.605">
-</testcase>
-<testcase name="Hacker News Accessibility Tests › should have proper ARIA attributes" classname="accessibility.spec.ts" time="1.811">
-</testcase>
-</testsuite>
-<testsuite name="hackernews.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="firefox" tests="3" failures="0" skipped="0" time="11.608" errors="0">
-<testcase name="Hacker News Article Sorting Tests › first page articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="1.499">
-</testcase>
-<testcase name="Hacker News Article Sorting Tests › first 100 articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="3.428">
-</testcase>
-<testcase name="Hacker News Article Sorting Tests › should handle page refresh and maintain order" classname="hackernews.spec.ts" time="6.681">
-</testcase>
-</testsuite>
-<testsuite name="performance.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="firefox" tests="5" failures="0" skipped="0" time="12.66" errors="0">
-<testcase name="Performance Tests › should load first page within performance budget" classname="performance.spec.ts" time="1.306">
-</testcase>
-<testcase name="Performance Tests › should maintain performance during pagination" classname="performance.spec.ts" time="3.35">
-</testcase>
-<testcase name="Performance Tests › should maintain stable memory usage during pagination" classname="performance.spec.ts" time="1.994">
-</testcase>
-<testcase name="Performance Tests › should handle rate limiting gracefully" classname="performance.spec.ts" time="4.703">
-</testcase>
-<testcase name="Performance Tests › should optimize DOM operations" classname="performance.spec.ts" time="1.307">
-</testcase>
-</testsuite>
-<testsuite name="accessibility.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="webkit" tests="4" failures="0" skipped="0" time="6.945" errors="0">
-<testcase name="Hacker News Accessibility Tests › should document accessibility status" classname="accessibility.spec.ts" time="3.005">
-<system-out>
-<![CDATA[Known accessibility issues:
-- Insufficient color contrast in UI elements (color-contrast)
-- Images missing alternative text (image-alt)
-- Form elements missing labels (label)
-- Links without discernible text (link-name)
-]]>
-</system-out>
-</testcase>
-<testcase name="Hacker News Accessibility Tests › should have proper heading structure" classname="accessibility.spec.ts" time="1.187">
-</testcase>
-<testcase name="Hacker News Accessibility Tests › should have sufficient color contrast" classname="accessibility.spec.ts" time="1.399">
-</testcase>
-<testcase name="Hacker News Accessibility Tests › should have proper ARIA attributes" classname="accessibility.spec.ts" time="1.354">
-</testcase>
-</testsuite>
-<testsuite name="hackernews.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="webkit" tests="3" failures="0" skipped="0" time="9.785" errors="0">
-<testcase name="Hacker News Article Sorting Tests › first page articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="1.155">
-</testcase>
-<testcase name="Hacker News Article Sorting Tests › first 100 articles should be sorted from newest to oldest" classname="hackernews.spec.ts" time="3.065">
-</testcase>
-<testcase name="Hacker News Article Sorting Tests › should handle page refresh and maintain order" classname="hackernews.spec.ts" time="5.565">
-</testcase>
-</testsuite>
-<testsuite name="performance.spec.ts" timestamp="2025-01-21T19:24:12.029Z" hostname="webkit" tests="5" failures="0" skipped="0" time="11.661" errors="0">
-<testcase name="Performance Tests › should load first page within performance budget" classname="performance.spec.ts" time="1.311">
-</testcase>
-<testcase name="Performance Tests › should maintain performance during pagination" classname="performance.spec.ts" time="3.017">
-</testcase>
-<testcase name="Performance Tests › should maintain stable memory usage during pagination" classname="performance.spec.ts" time="1.85">
-</testcase>
-<testcase name="Performance Tests › should handle rate limiting gracefully" classname="performance.spec.ts" time="4.319">
-</testcase>
-<testcase name="Performance Tests › should optimize DOM operations" classname="performance.spec.ts" time="1.164">
 </testcase>
 </testsuite>
 </testsuites>

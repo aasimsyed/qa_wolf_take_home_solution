@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Hacker News Article Sorting Test Suite",
   "scripts": {
+    "build": "tsc",
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
@@ -26,12 +27,14 @@
   "license": "ISC",
   "dependencies": {
     "@playwright/test": "^1.42.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.7.3",
     "@types/axe-core": "^2.0.2",
     "@types/node": "^20.11.24",
+    "@types/winston": "^2.4.4",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
     "eslint": "^8.57.0",

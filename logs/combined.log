@@ -2302,3 +2302,222 @@ Call log:
 [2025-01-20T20:49:24.958Z] [32minfo[39m: Starting Hacker News sorting test
 [2025-01-20T20:51:02.159Z] [32minfo[39m: Starting Hacker News sorting test
 [2025-01-20T20:52:35.355Z] [32minfo[39m: Starting Hacker News sorting test
+2025-01-22T19:35:42.484Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:35:42.502Z [INFO]: Performance - Page Navigation: 1031ms
+2025-01-22T19:35:42.503Z [INFO]: Starting accessibility scan...
+2025-01-22T19:35:43.421Z [INFO]: Accessibility scan completed in 918ms
+2025-01-22T19:35:43.422Z [INFO]: Known accessibility issues:
+2025-01-22T19:35:43.422Z [WARN]: Accessibility violation - color-contrast: Elements must meet minimum color contrast ratio thresholds (270 occurrences)
+2025-01-22T19:35:43.422Z [WARN]: Accessibility violation - image-alt: Images must have alternative text (2 occurrences)
+2025-01-22T19:35:43.422Z [WARN]: Accessibility violation - label: Form elements must have labels (1 occurrences)
+2025-01-22T19:35:43.422Z [WARN]: Accessibility violation - link-name: Links must have discernible text (1 occurrences)
+2025-01-22T19:35:43.423Z [INFO]: Found 0 accessibility violations
+2025-01-22T19:35:44.638Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:35:44.640Z [INFO]: Performance - Page Navigation: 884ms
+2025-01-22T19:35:45.913Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:35:45.913Z [INFO]: Performance - Page Navigation: 956ms
+2025-01-22T19:35:47.317Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:35:47.318Z [INFO]: Performance - Page Navigation: 908ms
+2025-01-22T19:35:47.828Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:35:48.728Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:35:48.728Z [INFO]: Performance - Page Navigation: 901ms
+2025-01-22T19:35:48.747Z [INFO]: Performance - Timestamp Collection: 18ms
+2025-01-22T19:35:49.095Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:35:49.996Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:35:49.997Z [INFO]: Performance - Page Navigation: 901ms
+2025-01-22T19:35:50.016Z [INFO]: Performance - Timestamp Collection: 18ms
+2025-01-22T19:35:50.707Z [INFO]: Performance - Next Page Load: 691ms
+2025-01-22T19:35:50.899Z [INFO]: Performance - Timestamp Collection: 190ms
+2025-01-22T19:35:51.577Z [INFO]: Performance - Next Page Load: 678ms
+2025-01-22T19:35:51.586Z [INFO]: Performance - Timestamp Collection: 9ms
+2025-01-22T19:35:52.218Z [INFO]: Performance - Next Page Load: 632ms
+2025-01-22T19:35:52.229Z [INFO]: Performance - Timestamp Collection: 10ms
+2025-01-22T19:35:52.597Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:35:53.507Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:35:53.508Z [INFO]: Performance - Page Navigation: 909ms
+2025-01-22T19:35:53.536Z [INFO]: Performance - Timestamp Collection: 27ms
+2025-01-22T19:35:54.166Z [INFO]: Performance - Next Page Load: 630ms
+2025-01-22T19:35:54.174Z [INFO]: Performance - Timestamp Collection: 8ms
+2025-01-22T19:35:54.807Z [INFO]: Performance - Next Page Load: 633ms
+2025-01-22T19:35:54.817Z [INFO]: Performance - Timestamp Collection: 10ms
+2025-01-22T19:35:55.431Z [INFO]: Performance - Next Page Load: 613ms
+2025-01-22T19:35:55.444Z [INFO]: Performance - Timestamp Collection: 13ms
+2025-01-22T19:35:56.049Z [INFO]: Performance - Articles Load: 15ms
+2025-01-22T19:35:56.061Z [INFO]: Performance - Timestamp Collection: 12ms
+2025-01-22T19:35:56.682Z [INFO]: Performance - Next Page Load: 621ms
+2025-01-22T19:35:56.699Z [INFO]: Performance - Timestamp Collection: 17ms
+2025-01-22T19:35:57.321Z [INFO]: Performance - Next Page Load: 622ms
+2025-01-22T19:35:57.332Z [INFO]: Performance - Timestamp Collection: 11ms
+2025-01-22T19:35:57.952Z [INFO]: Performance - Next Page Load: 620ms
+2025-01-22T19:35:57.964Z [INFO]: Performance - Timestamp Collection: 12ms
+2025-01-22T19:35:58.234Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:35:59.150Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:35:59.152Z [INFO]: Performance - Page Navigation: 914ms
+2025-01-22T19:35:59.436Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:00.337Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:00.338Z [INFO]: Performance - Page Navigation: 901ms
+2025-01-22T19:36:00.961Z [INFO]: Performance - Next Page Load: 623ms
+2025-01-22T19:36:01.599Z [INFO]: Performance - Next Page Load: 636ms
+2025-01-22T19:36:02.237Z [INFO]: Performance - Next Page Load: 635ms
+2025-01-22T19:36:02.505Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:03.417Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:03.417Z [INFO]: Performance - Page Navigation: 912ms
+2025-01-22T19:36:04.066Z [INFO]: Performance - Next Page Load: 642ms
+2025-01-22T19:36:04.410Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:05.339Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:05.339Z [INFO]: Performance - Page Navigation: 929ms
+2025-01-22T19:36:05.985Z [INFO]: Performance - Next Page Load: 645ms
+2025-01-22T19:36:06.666Z [INFO]: Performance - Next Page Load: 680ms
+2025-01-22T19:36:07.310Z [INFO]: Performance - Next Page Load: 643ms
+2025-01-22T19:36:07.941Z [INFO]: Performance - Next Page Load: 631ms
+2025-01-22T19:36:08.573Z [INFO]: Performance - Next Page Load: 632ms
+2025-01-22T19:36:08.843Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:09.739Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:09.740Z [INFO]: Performance - Page Navigation: 896ms
+2025-01-22T19:36:09.755Z [INFO]: Performance - Timestamp Collection: 15ms
+2025-01-22T19:36:14.678Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:14.687Z [INFO]: Performance - Page Navigation: 1174ms
+2025-01-22T19:36:14.687Z [INFO]: Starting accessibility scan...
+2025-01-22T19:36:15.756Z [INFO]: Accessibility scan completed in 1069ms
+2025-01-22T19:36:15.756Z [INFO]: Known accessibility issues:
+2025-01-22T19:36:15.757Z [WARN]: Accessibility violation - color-contrast: Elements must meet minimum color contrast ratio thresholds (270 occurrences)
+2025-01-22T19:36:15.757Z [WARN]: Accessibility violation - image-alt: Images must have alternative text (2 occurrences)
+2025-01-22T19:36:15.757Z [WARN]: Accessibility violation - label: Form elements must have labels (1 occurrences)
+2025-01-22T19:36:15.757Z [WARN]: Accessibility violation - link-name: Links must have discernible text (1 occurrences)
+2025-01-22T19:36:15.758Z [INFO]: Found 0 accessibility violations
+2025-01-22T19:36:16.967Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:16.967Z [INFO]: Performance - Page Navigation: 961ms
+2025-01-22T19:36:18.135Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:18.136Z [INFO]: Performance - Page Navigation: 951ms
+2025-01-22T19:36:19.888Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:19.890Z [INFO]: Performance - Page Navigation: 940ms
+2025-01-22T19:36:21.031Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:22.286Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:22.286Z [INFO]: Performance - Page Navigation: 1254ms
+2025-01-22T19:36:22.309Z [INFO]: Performance - Timestamp Collection: 23ms
+2025-01-22T19:36:22.778Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:23.734Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:23.735Z [INFO]: Performance - Page Navigation: 956ms
+2025-01-22T19:36:23.755Z [INFO]: Performance - Timestamp Collection: 19ms
+2025-01-22T19:36:24.449Z [INFO]: Performance - Next Page Load: 693ms
+2025-01-22T19:36:24.467Z [INFO]: Performance - Timestamp Collection: 18ms
+2025-01-22T19:36:25.139Z [INFO]: Performance - Next Page Load: 672ms
+2025-01-22T19:36:25.166Z [INFO]: Performance - Timestamp Collection: 27ms
+2025-01-22T19:36:25.826Z [INFO]: Performance - Next Page Load: 660ms
+2025-01-22T19:36:25.842Z [INFO]: Performance - Timestamp Collection: 16ms
+2025-01-22T19:36:26.196Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:27.161Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:27.161Z [INFO]: Performance - Page Navigation: 965ms
+2025-01-22T19:36:27.225Z [INFO]: Performance - Timestamp Collection: 64ms
+2025-01-22T19:36:27.916Z [INFO]: Performance - Next Page Load: 691ms
+2025-01-22T19:36:27.940Z [INFO]: Performance - Timestamp Collection: 24ms
+2025-01-22T19:36:28.638Z [INFO]: Performance - Next Page Load: 697ms
+2025-01-22T19:36:28.658Z [INFO]: Performance - Timestamp Collection: 20ms
+2025-01-22T19:36:29.332Z [INFO]: Performance - Next Page Load: 674ms
+2025-01-22T19:36:29.352Z [INFO]: Performance - Timestamp Collection: 20ms
+2025-01-22T19:36:30.194Z [INFO]: Performance - Articles Load: 31ms
+2025-01-22T19:36:30.213Z [INFO]: Performance - Timestamp Collection: 19ms
+2025-01-22T19:36:30.896Z [INFO]: Performance - Next Page Load: 683ms
+2025-01-22T19:36:30.919Z [INFO]: Performance - Timestamp Collection: 23ms
+2025-01-22T19:36:31.581Z [INFO]: Performance - Next Page Load: 662ms
+2025-01-22T19:36:31.596Z [INFO]: Performance - Timestamp Collection: 15ms
+2025-01-22T19:36:32.243Z [INFO]: Performance - Next Page Load: 647ms
+2025-01-22T19:36:32.256Z [INFO]: Performance - Timestamp Collection: 13ms
+2025-01-22T19:36:32.583Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:33.557Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:33.557Z [INFO]: Performance - Page Navigation: 974ms
+2025-01-22T19:36:33.875Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:34.873Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:34.873Z [INFO]: Performance - Page Navigation: 998ms
+2025-01-22T19:36:35.565Z [INFO]: Performance - Next Page Load: 691ms
+2025-01-22T19:36:36.558Z [INFO]: Performance - Next Page Load: 990ms
+2025-01-22T19:36:37.330Z [INFO]: Performance - Next Page Load: 766ms
+2025-01-22T19:36:37.764Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:38.744Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:38.745Z [INFO]: Performance - Page Navigation: 980ms
+2025-01-22T19:36:39.434Z [INFO]: Performance - Next Page Load: 683ms
+2025-01-22T19:36:39.684Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:40.646Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:40.647Z [INFO]: Performance - Page Navigation: 962ms
+2025-01-22T19:36:41.320Z [INFO]: Performance - Next Page Load: 673ms
+2025-01-22T19:36:41.975Z [INFO]: Performance - Next Page Load: 655ms
+2025-01-22T19:36:42.644Z [INFO]: Performance - Next Page Load: 669ms
+2025-01-22T19:36:43.315Z [INFO]: Performance - Next Page Load: 671ms
+2025-01-22T19:36:44.029Z [INFO]: Performance - Next Page Load: 714ms
+2025-01-22T19:36:44.314Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:45.276Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:45.276Z [INFO]: Performance - Page Navigation: 962ms
+2025-01-22T19:36:45.304Z [INFO]: Performance - Timestamp Collection: 27ms
+2025-01-22T19:36:49.623Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:49.635Z [INFO]: Performance - Page Navigation: 1047ms
+2025-01-22T19:36:49.636Z [INFO]: Starting accessibility scan...
+2025-01-22T19:36:50.762Z [INFO]: Accessibility scan completed in 1126ms
+2025-01-22T19:36:50.762Z [INFO]: Known accessibility issues:
+2025-01-22T19:36:50.763Z [WARN]: Accessibility violation - color-contrast: Elements must meet minimum color contrast ratio thresholds (270 occurrences)
+2025-01-22T19:36:50.763Z [WARN]: Accessibility violation - image-alt: Images must have alternative text (2 occurrences)
+2025-01-22T19:36:50.763Z [WARN]: Accessibility violation - label: Form elements must have labels (1 occurrences)
+2025-01-22T19:36:50.763Z [WARN]: Accessibility violation - link-name: Links must have discernible text (1 occurrences)
+2025-01-22T19:36:50.763Z [INFO]: Found 0 accessibility violations
+2025-01-22T19:36:52.298Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:52.298Z [INFO]: Performance - Page Navigation: 980ms
+2025-01-22T19:36:53.574Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:53.575Z [INFO]: Performance - Page Navigation: 958ms
+2025-01-22T19:36:55.119Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:55.119Z [INFO]: Performance - Page Navigation: 947ms
+2025-01-22T19:36:55.673Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:56.628Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:56.628Z [INFO]: Performance - Page Navigation: 955ms
+2025-01-22T19:36:56.642Z [INFO]: Performance - Timestamp Collection: 14ms
+2025-01-22T19:36:56.879Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:36:57.823Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:36:57.824Z [INFO]: Performance - Page Navigation: 943ms
+2025-01-22T19:36:57.841Z [INFO]: Performance - Timestamp Collection: 16ms
+2025-01-22T19:36:58.489Z [INFO]: Performance - Next Page Load: 648ms
+2025-01-22T19:36:58.505Z [INFO]: Performance - Timestamp Collection: 14ms
+2025-01-22T19:36:59.117Z [INFO]: Performance - Next Page Load: 612ms
+2025-01-22T19:36:59.126Z [INFO]: Performance - Timestamp Collection: 9ms
+2025-01-22T19:36:59.740Z [INFO]: Performance - Next Page Load: 614ms
+2025-01-22T19:36:59.747Z [INFO]: Performance - Timestamp Collection: 7ms
+2025-01-22T19:37:00.186Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:37:01.181Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:37:01.181Z [INFO]: Performance - Page Navigation: 994ms
+2025-01-22T19:37:01.200Z [INFO]: Performance - Timestamp Collection: 19ms
+2025-01-22T19:37:01.822Z [INFO]: Performance - Next Page Load: 622ms
+2025-01-22T19:37:01.831Z [INFO]: Performance - Timestamp Collection: 9ms
+2025-01-22T19:37:02.449Z [INFO]: Performance - Next Page Load: 617ms
+2025-01-22T19:37:02.456Z [INFO]: Performance - Timestamp Collection: 7ms
+2025-01-22T19:37:03.088Z [INFO]: Performance - Next Page Load: 631ms
+2025-01-22T19:37:03.098Z [INFO]: Performance - Timestamp Collection: 10ms
+2025-01-22T19:37:03.698Z [INFO]: Performance - Articles Load: 14ms
+2025-01-22T19:37:03.708Z [INFO]: Performance - Timestamp Collection: 10ms
+2025-01-22T19:37:04.334Z [INFO]: Performance - Next Page Load: 625ms
+2025-01-22T19:37:04.343Z [INFO]: Performance - Timestamp Collection: 8ms
+2025-01-22T19:37:04.973Z [INFO]: Performance - Next Page Load: 629ms
+2025-01-22T19:37:04.982Z [INFO]: Performance - Timestamp Collection: 9ms
+2025-01-22T19:37:05.605Z [INFO]: Performance - Next Page Load: 623ms
+2025-01-22T19:37:05.616Z [INFO]: Performance - Timestamp Collection: 11ms
+2025-01-22T19:37:06.200Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:37:07.162Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:37:07.162Z [INFO]: Performance - Page Navigation: 962ms
+2025-01-22T19:37:07.411Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:37:08.367Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:37:08.368Z [INFO]: Performance - Page Navigation: 956ms
+2025-01-22T19:37:09.010Z [INFO]: Performance - Next Page Load: 641ms
+2025-01-22T19:37:09.635Z [INFO]: Performance - Next Page Load: 623ms
+2025-01-22T19:37:10.276Z [INFO]: Performance - Next Page Load: 639ms
+2025-01-22T19:37:10.554Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:37:11.604Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:37:11.604Z [INFO]: Performance - Page Navigation: 1050ms
+2025-01-22T19:37:12.243Z [INFO]: Performance - Next Page Load: 630ms
+2025-01-22T19:37:12.527Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:37:13.481Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:37:13.481Z [INFO]: Performance - Page Navigation: 954ms
+2025-01-22T19:37:14.128Z [INFO]: Performance - Next Page Load: 647ms
+2025-01-22T19:37:14.764Z [INFO]: Performance - Next Page Load: 636ms
+2025-01-22T19:37:15.394Z [INFO]: Performance - Next Page Load: 630ms
+2025-01-22T19:37:16.027Z [INFO]: Performance - Next Page Load: 633ms
+2025-01-22T19:37:16.663Z [INFO]: Performance - Next Page Load: 636ms
+2025-01-22T19:37:16.887Z [WARN]: Rate Limit - Navigation, waiting 2000ms
+2025-01-22T19:37:17.903Z [INFO]: Successfully navigated to https://news.ycombinator.com/newest (attempt 1)
+2025-01-22T19:37:17.912Z [INFO]: Performance - Page Navigation: 1016ms
+2025-01-22T19:37:17.938Z [INFO]: Performance - Timestamp Collection: 23ms

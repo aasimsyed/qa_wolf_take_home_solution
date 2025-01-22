@@ -102,7 +102,7 @@
         {
           "title": "Hacker News Accessibility Tests",
           "file": "accessibility.spec.ts",
-          "line": 5,
+          "line": 6,
           "column": 6,
           "specs": [
             {
@@ -120,28 +120,43 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2543,
+                      "duration": 3084,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Known accessibility issues:\n"
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:35:42.484Z\"}\n"
                         },
                         {
-                          "text": "- Insufficient color contrast in UI elements (color-contrast)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 1031ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:35:42.502Z\"}\n"
                         },
                         {
-                          "text": "- Images missing alternative text (image-alt)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Starting accessibility scan... {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:35:42.503Z\"}\n"
                         },
                         {
-                          "text": "- Form elements missing labels (label)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Accessibility scan completed in 918ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:35:43.421Z\"}\n"
                         },
                         {
-                          "text": "- Links without discernible text (link-name)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Known accessibility issues: {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:35:43.422Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - color-contrast: Elements must meet minimum color contrast ratio thresholds (270 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:35:43.422Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - image-alt: Images must have alternative text (2 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:35:43.422Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - label: Form elements must have labels (1 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:35:43.422Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - link-name: Links must have discernible text (1 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:35:43.422Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Found 0 accessibility violations {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:35:43.423Z\"}\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:12.290Z",
+                      "startTime": "2025-01-22T19:35:39.059Z",
                       "attachments": []
                     }
                   ],
@@ -150,7 +165,7 @@
               ],
               "id": "ddd864604af8a6a0198f-a9cc786d7b8b982f2278",
               "file": "accessibility.spec.ts",
-              "line": 6,
+              "line": 11,
               "column": 7
             },
             {
@@ -168,12 +183,19 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1279,
+                      "duration": 1239,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper heading structure\",\"timestamp\":\"2025-01-22T19:35:44.638Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 884ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper heading structure\",\"timestamp\":\"2025-01-22T19:35:44.640Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:15.828Z",
+                      "startTime": "2025-01-22T19:35:43.525Z",
                       "attachments": []
                     }
                   ],
@@ -182,7 +204,7 @@
               ],
               "id": "ddd864604af8a6a0198f-0c74d0009ff028368ea6",
               "file": "accessibility.spec.ts",
-              "line": 41,
+              "line": 49,
               "column": 7
             },
             {
@@ -200,12 +222,19 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1375,
+                      "duration": 1446,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have sufficient color contrast\",\"timestamp\":\"2025-01-22T19:35:45.913Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 956ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have sufficient color contrast\",\"timestamp\":\"2025-01-22T19:35:45.913Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:17.112Z",
+                      "startTime": "2025-01-22T19:35:44.770Z",
                       "attachments": []
                     }
                   ],
@@ -214,7 +243,7 @@
               ],
               "id": "ddd864604af8a6a0198f-664d8e3a53962d2b50b4",
               "file": "accessibility.spec.ts",
-              "line": 61,
+              "line": 69,
               "column": 7
             },
             {
@@ -232,12 +261,19 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1432,
+                      "duration": 1416,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:47.317Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 908ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:47.318Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:18.489Z",
+                      "startTime": "2025-01-22T19:35:46.218Z",
                       "attachments": []
                     }
                   ],
@@ -246,7 +282,7 @@
               ],
               "id": "ddd864604af8a6a0198f-749f37edb4afdaad1da7",
               "file": "accessibility.spec.ts",
-              "line": 72,
+              "line": 80,
               "column": 7
             },
             {
@@ -264,28 +300,43 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 3409,
+                      "duration": 3555,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Known accessibility issues:\n"
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:14.678Z\"}\n"
                         },
                         {
-                          "text": "- Insufficient color contrast in UI elements (color-contrast)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 1174ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:14.687Z\"}\n"
                         },
                         {
-                          "text": "- Images missing alternative text (image-alt)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Starting accessibility scan... {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:14.687Z\"}\n"
                         },
                         {
-                          "text": "- Form elements missing labels (label)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Accessibility scan completed in 1069ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:15.756Z\"}\n"
                         },
                         {
-                          "text": "- Links without discernible text (link-name)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Known accessibility issues: {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:15.756Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - color-contrast: Elements must meet minimum color contrast ratio thresholds (270 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:15.757Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - image-alt: Images must have alternative text (2 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:15.757Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - label: Form elements must have labels (1 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:15.757Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - link-name: Links must have discernible text (1 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:15.757Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Found 0 accessibility violations {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:15.758Z\"}\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:42.745Z",
+                      "startTime": "2025-01-22T19:36:10.794Z",
                       "attachments": []
                     }
                   ],
@@ -294,7 +345,7 @@
               ],
               "id": "ddd864604af8a6a0198f-1c297d4ea6d46eb92026",
               "file": "accessibility.spec.ts",
-              "line": 6,
+              "line": 11,
               "column": 7
             },
             {
@@ -312,12 +363,19 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1452,
+                      "duration": 1174,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper heading structure\",\"timestamp\":\"2025-01-22T19:36:16.967Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 961ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper heading structure\",\"timestamp\":\"2025-01-22T19:36:16.967Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:47.574Z",
+                      "startTime": "2025-01-22T19:36:15.838Z",
                       "attachments": []
                     }
                   ],
@@ -326,7 +384,7 @@
               ],
               "id": "ddd864604af8a6a0198f-7e6946fa9edafc7d4a3a",
               "file": "accessibility.spec.ts",
-              "line": 41,
+              "line": 49,
               "column": 7
             },
             {
@@ -344,12 +402,19 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1605,
+                      "duration": 1675,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have sufficient color contrast\",\"timestamp\":\"2025-01-22T19:36:18.135Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 951ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have sufficient color contrast\",\"timestamp\":\"2025-01-22T19:36:18.136Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:49.034Z",
+                      "startTime": "2025-01-22T19:36:17.017Z",
                       "attachments": []
                     }
                   ],
@@ -358,7 +423,7 @@
               ],
               "id": "ddd864604af8a6a0198f-80f12b56864dd39cf9e1",
               "file": "accessibility.spec.ts",
-              "line": 61,
+              "line": 69,
               "column": 7
             },
             {
@@ -376,12 +441,19 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1811,
+                      "duration": 1650,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:19.888Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 940ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:19.890Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:50.646Z",
+                      "startTime": "2025-01-22T19:36:18.697Z",
                       "attachments": []
                     }
                   ],
@@ -390,7 +462,7 @@
               ],
               "id": "ddd864604af8a6a0198f-ba738bf7e2bc41bd268d",
               "file": "accessibility.spec.ts",
-              "line": 72,
+              "line": 80,
               "column": 7
             },
             {
@@ -408,28 +480,43 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 3005,
+                      "duration": 3513,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Known accessibility issues:\n"
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:49.623Z\"}\n"
                         },
                         {
-                          "text": "- Insufficient color contrast in UI elements (color-contrast)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 1047ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:49.635Z\"}\n"
                         },
                         {
-                          "text": "- Images missing alternative text (image-alt)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Starting accessibility scan... {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:49.636Z\"}\n"
                         },
                         {
-                          "text": "- Form elements missing labels (label)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Accessibility scan completed in 1126ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:50.762Z\"}\n"
                         },
                         {
-                          "text": "- Links without discernible text (link-name)\n"
+                          "text": "\u001b[32minfo\u001b[39m: Known accessibility issues: {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:50.762Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - color-contrast: Elements must meet minimum color contrast ratio thresholds (270 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:50.763Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - image-alt: Images must have alternative text (2 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:50.763Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - label: Form elements must have labels (1 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:50.763Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Accessibility violation - link-name: Links must have discernible text (1 occurrences) {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:50.763Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Found 0 accessibility violations {\"file\":\"accessibility.spec.ts\",\"test\":\"should document accessibility status\",\"timestamp\":\"2025-01-22T19:36:50.763Z\"}\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:17.777Z",
+                      "startTime": "2025-01-22T19:36:46.463Z",
                       "attachments": []
                     }
                   ],
@@ -438,7 +525,7 @@
               ],
               "id": "ddd864604af8a6a0198f-63fcf8ebfb95d4971362",
               "file": "accessibility.spec.ts",
-              "line": 6,
+              "line": 11,
               "column": 7
             },
             {
@@ -456,12 +543,19 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 1187,
+                      "duration": 1294,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper heading structure\",\"timestamp\":\"2025-01-22T19:36:52.298Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 980ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper heading structure\",\"timestamp\":\"2025-01-22T19:36:52.298Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:21.652Z",
+                      "startTime": "2025-01-22T19:36:51.052Z",
                       "attachments": []
                     }
                   ],
@@ -470,7 +564,7 @@
               ],
               "id": "ddd864604af8a6a0198f-1e889c99afc3f1adf8bc",
               "file": "accessibility.spec.ts",
-              "line": 41,
+              "line": 49,
               "column": 7
             },
             {
@@ -488,12 +582,19 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 1399,
+                      "duration": 1662,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have sufficient color contrast\",\"timestamp\":\"2025-01-22T19:36:53.574Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 958ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have sufficient color contrast\",\"timestamp\":\"2025-01-22T19:36:53.575Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:22.844Z",
+                      "startTime": "2025-01-22T19:36:52.354Z",
                       "attachments": []
                     }
                   ],
@@ -502,7 +603,7 @@
               ],
               "id": "ddd864604af8a6a0198f-20919225919a7b574d56",
               "file": "accessibility.spec.ts",
-              "line": 61,
+              "line": 69,
               "column": 7
             },
             {
@@ -520,12 +621,19 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 1354,
+                      "duration": 1506,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:55.119Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 947ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:55.119Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:24.246Z",
+                      "startTime": "2025-01-22T19:36:54.019Z",
                       "attachments": []
                     }
                   ],
@@ -534,7 +642,7 @@
               ],
               "id": "ddd864604af8a6a0198f-47ce3c1fece84109855b",
               "file": "accessibility.spec.ts",
-              "line": 72,
+              "line": 80,
               "column": 7
             }
           ]
@@ -569,12 +677,25 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1264,
+                      "duration": 1261,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:47.828Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:48.728Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 901ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:48.728Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 18ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:48.747Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:19.927Z",
+                      "startTime": "2025-01-22T19:35:47.640Z",
                       "attachments": []
                     }
                   ],
@@ -601,12 +722,43 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 3235,
+                      "duration": 3459,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:49.095Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:49.996Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 901ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:49.997Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 18ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:50.016Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 691ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:50.707Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 190ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:50.899Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 678ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:51.577Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 9ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:51.586Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 632ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:52.218Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 10ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:52.229Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:21.195Z",
+                      "startTime": "2025-01-22T19:35:48.904Z",
                       "attachments": []
                     }
                   ],
@@ -633,12 +785,67 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 5643,
+                      "duration": 5675,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:52.597Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:53.507Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 909ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:53.508Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 27ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:53.536Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 630ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:54.166Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 8ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:54.174Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 633ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:54.807Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 10ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:54.817Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 613ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:55.431Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 13ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:55.444Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Articles Load: 15ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:56.049Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 12ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:56.061Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 621ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:56.682Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 17ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:56.699Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 622ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:57.321Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 11ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:57.332Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 620ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:57.952Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 12ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:57.964Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:24.432Z",
+                      "startTime": "2025-01-22T19:35:52.366Z",
                       "attachments": []
                     }
                   ],
@@ -665,12 +872,25 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1499,
+                      "duration": 2087,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:21.031Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:22.286Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 1254ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:22.286Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 23ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:22.309Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:52.479Z",
+                      "startTime": "2025-01-22T19:36:20.363Z",
                       "attachments": []
                     }
                   ],
@@ -697,12 +917,43 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 3428,
+                      "duration": 3476,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:22.778Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:23.734Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 956ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:23.735Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 19ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:23.755Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 693ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:24.449Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 18ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:24.467Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 672ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:25.139Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 27ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:25.166Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 660ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:25.826Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 16ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:25.842Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:53.988Z",
+                      "startTime": "2025-01-22T19:36:22.457Z",
                       "attachments": []
                     }
                   ],
@@ -729,12 +980,67 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 6681,
+                      "duration": 6393,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:26.196Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:27.161Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 965ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:27.161Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 64ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:27.225Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 691ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:27.916Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 24ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:27.940Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 697ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:28.638Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 20ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:28.658Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 674ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:29.332Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 20ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:29.352Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Articles Load: 31ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:30.194Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 19ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:30.213Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 683ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:30.896Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 23ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:30.919Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 662ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:31.581Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 15ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:31.596Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 647ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:32.243Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 13ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:32.256Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:57.421Z",
+                      "startTime": "2025-01-22T19:36:25.937Z",
                       "attachments": []
                     }
                   ],
@@ -761,12 +1067,25 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 1155,
+                      "duration": 1179,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:55.673Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:56.628Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 955ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:56.628Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 14ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:56.642Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:25.605Z",
+                      "startTime": "2025-01-22T19:36:55.534Z",
                       "attachments": []
                     }
                   ],
@@ -793,12 +1112,43 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 3065,
+                      "duration": 3141,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:56.879Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:57.823Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 943ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:57.824Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 16ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:57.841Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 648ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:58.489Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 14ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:58.505Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 612ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:59.117Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 9ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:59.126Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 614ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:59.740Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 7ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:59.747Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:26.763Z",
+                      "startTime": "2025-01-22T19:36:56.716Z",
                       "attachments": []
                     }
                   ],
@@ -825,12 +1175,67 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 5565,
+                      "duration": 6037,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:00.186Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:01.181Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 994ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:01.181Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 19ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:01.200Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 622ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:01.822Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 9ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:01.831Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 617ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:02.449Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 7ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:02.456Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 631ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:03.088Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 10ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:03.098Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Articles Load: 14ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:03.698Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 10ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:03.708Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 625ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:04.334Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 8ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:04.343Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 629ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:04.973Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 9ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:04.982Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 623ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:05.605Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 11ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:05.616Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:29.830Z",
+                      "startTime": "2025-01-22T19:36:59.859Z",
                       "attachments": []
                     }
                   ],
@@ -874,12 +1279,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1241,
+                      "duration": 1200,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:58.234Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:59.150Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 914ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:59.152Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:30.082Z",
+                      "startTime": "2025-01-22T19:35:58.048Z",
                       "attachments": []
                     }
                   ],
@@ -906,12 +1321,31 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 3077,
+                      "duration": 3061,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:35:59.436Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:00.337Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 901ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:00.338Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 623ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:00.961Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 636ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:01.599Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 635ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:02.237Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:31.326Z",
+                      "startTime": "2025-01-22T19:35:59.251Z",
                       "attachments": []
                     }
                   ],
@@ -938,12 +1372,25 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1813,
+                      "duration": 1852,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:02.505Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:03.417Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 912ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:03.417Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 642ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:04.066Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:34.405Z",
+                      "startTime": "2025-01-22T19:36:02.317Z",
                       "attachments": []
                     }
                   ],
@@ -970,12 +1417,37 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 4349,
+                      "duration": 4484,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:04.410Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:05.339Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 929ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:05.339Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 645ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:05.985Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 680ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:06.666Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 643ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:07.310Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 631ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:07.941Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 632ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:08.573Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:36.221Z",
+                      "startTime": "2025-01-22T19:36:04.171Z",
                       "attachments": []
                     }
                   ],
@@ -1002,12 +1474,25 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1261,
+                      "duration": 1181,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:08.843Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:09.739Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 896ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:09.740Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 15ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:09.755Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:24:40.573Z",
+                      "startTime": "2025-01-22T19:36:08.659Z",
                       "attachments": []
                     }
                   ],
@@ -1034,12 +1519,22 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1306,
+                      "duration": 1313,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:32.583Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:33.557Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 974ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:33.557Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:04.113Z",
+                      "startTime": "2025-01-22T19:36:32.352Z",
                       "attachments": []
                     }
                   ],
@@ -1066,12 +1561,31 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 3350,
+                      "duration": 3732,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:33.875Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:34.873Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 998ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:34.873Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 691ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:35.565Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 990ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:36.558Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 766ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:37.330Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:05.424Z",
+                      "startTime": "2025-01-22T19:36:33.673Z",
                       "attachments": []
                     }
                   ],
@@ -1098,12 +1612,25 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1994,
+                      "duration": 2074,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:37.764Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:38.744Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 980ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:38.745Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 683ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:39.434Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:08.779Z",
+                      "startTime": "2025-01-22T19:36:37.410Z",
                       "attachments": []
                     }
                   ],
@@ -1130,12 +1657,37 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 4703,
+                      "duration": 4600,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:39.684Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:40.646Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 962ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:40.647Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 673ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:41.320Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 655ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:41.975Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 669ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:42.644Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 671ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:43.315Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 714ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:44.029Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:10.776Z",
+                      "startTime": "2025-01-22T19:36:39.489Z",
                       "attachments": []
                     }
                   ],
@@ -1162,12 +1714,25 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1307,
+                      "duration": 1267,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:44.314Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:45.276Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 962ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:45.276Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 27ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:36:45.304Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:15.481Z",
+                      "startTime": "2025-01-22T19:36:44.093Z",
                       "attachments": []
                     }
                   ],
@@ -1194,12 +1759,22 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 1311,
+                      "duration": 1301,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:06.200Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:07.162Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 962ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:07.162Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:35.402Z",
+                      "startTime": "2025-01-22T19:37:05.924Z",
                       "attachments": []
                     }
                   ],
@@ -1226,12 +1801,31 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 3017,
+                      "duration": 3108,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:07.411Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:08.367Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 956ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:08.368Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 641ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:09.010Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 623ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:09.635Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 639ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:10.276Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:36.716Z",
+                      "startTime": "2025-01-22T19:37:07.232Z",
                       "attachments": []
                     }
                   ],
@@ -1258,12 +1852,25 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 1850,
+                      "duration": 1941,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:10.554Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:11.604Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 1050ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:11.604Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 630ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:12.243Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:39.736Z",
+                      "startTime": "2025-01-22T19:37:10.344Z",
                       "attachments": []
                     }
                   ],
@@ -1290,12 +1897,37 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 4319,
+                      "duration": 4427,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:12.527Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:13.481Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 954ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:13.481Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 647ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:14.128Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 636ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:14.764Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 630ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:15.394Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 633ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:16.027Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Next Page Load: 636ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:16.663Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:41.588Z",
+                      "startTime": "2025-01-22T19:37:12.291Z",
                       "attachments": []
                     }
                   ],
@@ -1322,12 +1954,25 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 1164,
+                      "duration": 1261,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33mwarn\u001b[39m: Rate Limit - Navigation, waiting 2000ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:16.887Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Successfully navigated to https://news.ycombinator.com/newest (attempt 1) {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:17.903Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Page Navigation: 1016ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:17.912Z\"}\n"
+                        },
+                        {
+                          "text": "\u001b[32minfo\u001b[39m: Performance - Timestamp Collection: 23ms {\"file\":\"accessibility.spec.ts\",\"test\":\"should have proper ARIA attributes\",\"timestamp\":\"2025-01-22T19:37:17.938Z\"}\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-21T19:25:45.909Z",
+                      "startTime": "2025-01-22T19:37:16.721Z",
                       "attachments": []
                     }
                   ],
@@ -1346,8 +1991,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-01-21T19:24:11.983Z",
-    "duration": 95155.83600000001,
+    "startTime": "2025-01-22T19:35:38.587Z",
+    "duration": 99460.463,
     "expected": 36,
     "skipped": 0,
     "unexpected": 0,

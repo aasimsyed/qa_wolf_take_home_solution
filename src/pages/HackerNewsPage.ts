@@ -1,4 +1,5 @@
 import { Page, Locator } from '@playwright/test';
+import logger, { logNavigation, logPerformance, logRateLimit } from '../utils/logger';
 
 export class HackerNewsPage {
   // Static configuration
@@ -40,12 +41,13 @@ export class HackerNewsPage {
     
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
-        // Wait for rate limit guard before navigation
+        const startTime = Date.now();
+        
         if (global.requestGuard?.waitForRequest) {
           await global.requestGuard.waitForRequest();
+          logRateLimit('Navigation', 2000);
         }
         
-        // Parallel navigation and content verification
         await Promise.all([
           this.page.goto(HackerNewsPage.BASE_URL),
           this.page.waitForURL(HackerNewsPage.BASE_URL, { 
@@ -54,12 +56,19 @@ export class HackerNewsPage {
           }),
           this.articleRows.first().waitFor({ state: 'visible', timeout: 60000 })
         ]);
+
+        const duration = Date.now() - startTime;
+        logNavigation(HackerNewsPage.BASE_URL, attempt);
+        logPerformance('Page Navigation', duration);
         return;
       } catch (error) {
         lastError = error;
+        logNavigation(HackerNewsPage.BASE_URL, attempt, error as Error);
+        
         if (attempt < maxRetries) {
-          console.log(`Navigation attempt ${attempt} failed, waiting before retry...`);
-          await this.page.waitForLoadState('domcontentloaded', { timeout: 2000 * attempt });
+          const waitTime = 2000 * attempt;
+          logger.warn(`Navigation attempt ${attempt} failed, waiting ${waitTime}ms before retry...`);
+          await this.page.waitForLoadState('domcontentloaded', { timeout: waitTime });
         }
       }
     }
@@ -76,49 +85,47 @@ export class HackerNewsPage {
     let lastError;
 
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      const startTime = Date.now();
       try {
-        // Wait for both DOM content and article visibility
         await Promise.all([
           this.page.waitForLoadState('domcontentloaded'),
           this.articleRows.first().waitFor({ state: 'visible', timeout })
         ]);
+        
+        const duration = Date.now() - startTime;
+        logPerformance('Articles Load', duration);
         return;
       } catch (error) {
         lastError = error;
+        logger.error(`Failed to wait for articles (attempt ${attempt}): ${error}`);
         
-        // Handle rate limiting with automatic recovery
         try {
           const rateLimitText = await this.page.getByText('Rate limit exceeded').isVisible();
           if (rateLimitText) {
-            console.log('Rate limit detected, retrying...');
+            logger.warn('Rate limit detected, attempting recovery...');
             
-            // Attempt recovery via reload link or page refresh
             const reloadLink = this.page.getByRole('link', { name: 'reload' });
             if (await reloadLink.isVisible()) {
               await Promise.all([
                 this.page.waitForResponse(res => res.url().includes('news.ycombinator.com')),
                 reloadLink.click()
               ]);
+              logger.info('Recovery successful via reload link');
             } else {
               await Promise.all([
                 this.page.waitForResponse(res => res.url().includes('news.ycombinator.com')),
                 this.page.reload()
               ]);
+              logger.info('Recovery successful via page refresh');
             }
             continue;
           }
         } catch (e) {
-          console.log('Could not check for rate limit, continuing with retry');
+          logger.warn('Could not check for rate limit, continuing with retry');
         }
         
         if (attempt === maxRetries) {
           throw lastError;
-        }
-        
-        try {
-          await this.page.waitForLoadState('domcontentloaded');
-        } catch (e) {
-          console.log('Could not wait for load state, continuing with retry');
         }
       }
     }
@@ -128,19 +135,25 @@ export class HackerNewsPage {
    * Navigates to the next page of articles
    */
   public async loadNextPage(): Promise<void> {
-    // Ensure "More" link is available and wait for it to be stable
-    await this.moreLink.waitFor({ state: 'visible', timeout: 60000 });
-    await this.page.waitForLoadState('domcontentloaded', { timeout: 60000 });
-    
-    // Click and wait for navigation to complete
-    await Promise.all([
-      this.page.waitForLoadState('domcontentloaded', { timeout: 60000 }),
-      this.moreLink.click({ timeout: 60000 })
-    ]);
-    
-    // Wait for articles to be visible after navigation
-    await this.firstArticleRow.waitFor({ state: 'visible', timeout: 60000 });
-    await this.page.waitForLoadState('domcontentloaded', { timeout: 60000 });
+    const startTime = Date.now();
+    try {
+      await this.moreLink.waitFor({ state: 'visible', timeout: 60000 });
+      await this.page.waitForLoadState('domcontentloaded', { timeout: 60000 });
+      
+      await Promise.all([
+        this.page.waitForLoadState('domcontentloaded', { timeout: 60000 }),
+        this.moreLink.click({ timeout: 60000 })
+      ]);
+      
+      await this.firstArticleRow.waitFor({ state: 'visible', timeout: 60000 });
+      await this.page.waitForLoadState('domcontentloaded', { timeout: 60000 });
+      
+      const duration = Date.now() - startTime;
+      logPerformance('Next Page Load', duration);
+    } catch (error) {
+      logger.error(`Failed to load next page: ${error}`);
+      throw error;
+    }
   }
 
   /**
@@ -148,15 +161,24 @@ export class HackerNewsPage {
    * Uses optimized batch DOM query and in-memory processing
    */
   public async getPageTimestamps(): Promise<Date[]> {
-    // Single DOM query for all date elements
-    const dates = await this.articleDates.evaluateAll(elements => 
-      elements.map(el => el.getAttribute('title'))
-    );
-    
-    // Process all timestamps in memory
-    return dates
-      .filter((title): title is string => title !== null)
-      .map(title => this.parseTimestamp(title));
+    const startTime = Date.now();
+    try {
+      const dates = await this.articleDates.evaluateAll(elements => 
+        elements.map(el => el.getAttribute('title'))
+      );
+      
+      const timestamps = dates
+        .filter((title): title is string => title !== null)
+        .map(title => this.parseTimestamp(title));
+      
+      const duration = Date.now() - startTime;
+      logPerformance('Timestamp Collection', duration);
+      
+      return timestamps;
+    } catch (error) {
+      logger.error(`Failed to get page timestamps: ${error}`);
+      throw error;
+    }
   }
 
   /**

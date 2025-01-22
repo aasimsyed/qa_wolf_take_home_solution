@@ -1,16 +1,27 @@
 import { test, expect } from '@playwright/test';
 import { HackerNewsPage } from '../src/pages/HackerNewsPage';
 import AxeBuilder from '@axe-core/playwright';
+import logger, { addTestContext, logAccessibilityViolation } from '../src/utils/logger';
 
 test.describe('Hacker News Accessibility Tests', () => {
+  test.beforeEach(async ({ }, testInfo) => {
+    addTestContext(testInfo);
+  });
+
   test('should document accessibility status', async ({ page }) => {
     const hackerNewsPage = new HackerNewsPage(page);
     await hackerNewsPage.goto();
+    
+    logger.info('Starting accessibility scan...');
+    const startTime = Date.now();
     
     // Run accessibility scan
     const accessibilityScanResults = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
       .analyze();
+    
+    const duration = Date.now() - startTime;
+    logger.info(`Accessibility scan completed in ${duration}ms`);
     
     // Document known issues
     const knownIssues: Record<string, string> = {
@@ -21,20 +32,17 @@ test.describe('Hacker News Accessibility Tests', () => {
     };
 
     // Log violations for documentation
-    console.log('Known accessibility issues:');
+    logger.info('Known accessibility issues:');
     accessibilityScanResults.violations.forEach(violation => {
-      const knownIssue = knownIssues[violation.id];
-      if (knownIssue) {
-        console.log(`- ${knownIssue} (${violation.id})`);
-      } else {
-        console.log(`- Unexpected issue: ${violation.help} (${violation.id})`);
-      }
+      logAccessibilityViolation(violation);
     });
 
     // Only fail on unexpected violations
     const unexpectedViolations = accessibilityScanResults.violations.filter(
       violation => !knownIssues[violation.id]
     );
+    
+    logger.info(`Found ${unexpectedViolations.length} accessibility violations`);
     expect(unexpectedViolations).toEqual([]);
   });
 
