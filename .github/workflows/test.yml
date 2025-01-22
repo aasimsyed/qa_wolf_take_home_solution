@@ -34,7 +34,9 @@ jobs:
       run: xvfb-run --auto-servernum npm run test:${{ matrix.browser }}
       
     - name: Generate coverage report
-      run: npm run coverage
+      run: |
+        npm run test:coverage
+        npm run coverage
     
     - name: Upload test results
       if: always()
