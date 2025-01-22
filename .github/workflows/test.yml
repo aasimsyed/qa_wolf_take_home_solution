@@ -32,11 +32,6 @@ jobs:
     
     - name: Run tests
       run: xvfb-run --auto-servernum npm run test:${{ matrix.browser }}
-      
-    - name: Generate coverage report
-      run: |
-        npm run test:coverage
-        npm run coverage
     
     - name: Upload test results
       if: always()
@@ -48,12 +43,3 @@ jobs:
           playwright-report/
           coverage/
         retention-days: 30
-    
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v4
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-        slug: aasimsyed/qa_wolf_take_home_solution
-        file: ./coverage/coverage-final.json
-        flags: ${{ matrix.browser }}
-        name: codecov-${{ matrix.browser }} 
